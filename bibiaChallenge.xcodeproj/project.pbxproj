@@ -15,6 +15,10 @@
 		17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0F29DDB212006579D7 /* Daydream.ttf */; };
 		17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EB1229DDB512006579D7 /* DontBuyView.swift */; };
 		17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB1429DDB86A006579D7 /* Pixellari.ttf */; };
+		A39070BA29E0E4600025BFEF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39070B929E0E4600025BFEF /* CartView.swift */; };
+		A3FFAFED29E20F9200DA0E9F /* Itens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FFAFEC29E20F9200DA0E9F /* Itens.swift */; };
+		A3FFAFEF29E2104700DA0E9F /* ItensArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FFAFEE29E2104700DA0E9F /* ItensArray.swift */; };
+		A3FFAFF129E2130400DA0E9F /* CartCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FFAFF029E2130400DA0E9F /* CartCardView.swift */; };
 		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
@@ -36,6 +40,10 @@
 		17E4EB0F29DDB212006579D7 /* Daydream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Daydream.ttf; sourceTree = "<group>"; };
 		17E4EB1229DDB512006579D7 /* DontBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontBuyView.swift; sourceTree = "<group>"; };
 		17E4EB1429DDB86A006579D7 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		A39070B929E0E4600025BFEF /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		A3FFAFEC29E20F9200DA0E9F /* Itens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itens.swift; sourceTree = "<group>"; };
+		A3FFAFEE29E2104700DA0E9F /* ItensArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItensArray.swift; sourceTree = "<group>"; };
+		A3FFAFF029E2130400DA0E9F /* CartCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCardView.swift; sourceTree = "<group>"; };
 		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
@@ -113,8 +121,20 @@
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
 				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
+				A3FFAFE929E20E4100DA0E9F /* Cart */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A3FFAFE929E20E4100DA0E9F /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				A39070B929E0E4600025BFEF /* CartView.swift */,
+				A3FFAFF029E2130400DA0E9F /* CartCardView.swift */,
+				A3FFAFEC29E20F9200DA0E9F /* Itens.swift */,
+				A3FFAFEE29E2104700DA0E9F /* ItensArray.swift */,
+			);
+			path = Cart;
 			sourceTree = "<group>";
 		};
 		D4B47A4229DDEDD3008E6330 /* Components */ = {
@@ -218,14 +238,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
+				A3FFAFEF29E2104700DA0E9F /* ItensArray.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
+				A39070BA29E0E4600025BFEF /* CartView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
 				D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */,
 				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
+				A3FFAFED29E20F9200DA0E9F /* Itens.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
 				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
+				A3FFAFF129E2130400DA0E9F /* CartCardView.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
 				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
@@ -357,7 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				DEVELOPMENT_TEAM = 3343QN36KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;
@@ -388,7 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bibiaChallenge/Preview Content\"";
-				DEVELOPMENT_TEAM = Y8H4LWMZZ8;
+				DEVELOPMENT_TEAM = 3343QN36KP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = bibiaChallenge/Info.plist;

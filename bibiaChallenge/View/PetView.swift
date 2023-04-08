@@ -76,7 +76,7 @@ enum meloMood: View {
 }
 
 //struct PetView_Previews: PreviewProvider {
-//    
+//
 //    static var previews: some View {
 //        PetView(meloMood: .happy)
 //    }
