@@ -17,12 +17,12 @@
 		17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0F29DDB212006579D7 /* Daydream.ttf */; };
 		17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EB1229DDB512006579D7 /* DontBuyView.swift */; };
 		17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB1429DDB86A006579D7 /* Pixellari.ttf */; };
+		D4AA48AC29E444930053C55F /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AA48AB29E444930053C55F /* homeBtn.swift */; };
 		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
 		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
 		D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */; };
-		D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4E29DDFE08008E6330 /* homeBtn.swift */; };
 		D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5029DDFF73008E6330 /* ScoreManager.swift */; };
 		D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5229DE08D2008E6330 /* ActivityManager.swift */; };
 		D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5529DE0EB4008E6330 /* InitialView.swift */; };
@@ -43,12 +43,12 @@
 		17E4EB0F29DDB212006579D7 /* Daydream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Daydream.ttf; sourceTree = "<group>"; };
 		17E4EB1229DDB512006579D7 /* DontBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontBuyView.swift; sourceTree = "<group>"; };
 		17E4EB1429DDB86A006579D7 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		D4AA48AB29E444930053C55F /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = homeBtn.swift; path = ../View/homeBtn.swift; sourceTree = "<group>"; };
 		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
 		D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
-		D4B47A4E29DDFE08008E6330 /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
 		D4B47A5029DDFF73008E6330 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 		D4B47A5229DE08D2008E6330 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
 		D4B47A5529DE0EB4008E6330 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
@@ -123,7 +123,6 @@
 				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
-				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
 				D4B47A5929DE416E008E6330 /* ChatView.swift */,
 				D4B47A4D29DDFA66008E6330 /* Modais */,
@@ -134,11 +133,11 @@
 		D4B47A4229DDEDD3008E6330 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				D4B47A4329DDEDF0008E6330 /* Message.swift */,
 				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
 				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
 				D4B47A5729DE11B9008E6330 /* MainButton.swift */,
+				D4AA48AB29E444930053C55F /* homeBtn.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -237,6 +236,7 @@
 				D4B47A5829DE11B9008E6330 /* MainButton.swift in Sources */,
 				D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */,
 				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
+				D4AA48AC29E444930053C55F /* homeBtn.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
 				D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */,
@@ -244,13 +244,12 @@
 				D4B47A5A29DE416E008E6330 /* ChatView.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
-        0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
-        D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+				0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
-				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

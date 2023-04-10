@@ -15,7 +15,7 @@ struct PetActionFormula {
 }
 
 struct PetActionButton<TargetView:View>: View {
-    var isActive: Bool
+    @State var isActive: Bool
     
     var destination: TargetView
     var formula: PetActionFormula

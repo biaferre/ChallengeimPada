@@ -10,20 +10,27 @@ import SwiftUI
 struct DiaCumpridoView: View {
     var body: some View {
         ZStack {
-            Image ("SmilesBackground")
+            Image ("Chat wallpaper")
                 .resizable()
             BlueCircle()
                 .padding(.leading, 186)
                 .padding(.trailing, 174)
             
             VStack (spacing: -40){
-                Image("melos")
+                Image("melo-smiling")
+                    .resizable()
+                    .frame(width: 214.93, height: 255)
                     .rotationEffect(.degrees(17.29))
                     .offset(x: -320)
-                Image("melos1")
+                Image("melo-crazy2")
+                    .resizable()
                     .offset(x: 330)
-                Image("melos2")
+                    .frame(width: 171.06, height: 217.21)
+                Image("melo-happy")
+                    .resizable()
                     .offset(x: -280)
+                    .frame(width: 183.82, height: 212.33)
+
                     
                 
             }
@@ -36,25 +43,22 @@ struct BlueCircle: View {
     var body: some View{
         Circle().foregroundColor(Color("blue"))
         VStack (spacing: 33.61) {
-            VStack (spacing: 0){
+            VStack (spacing: 12){
                 Image("ebaaa!")
                 Text("Você completou um \n dia de compras :)")
-                    .font(.custom("Sora-SemiBold", size: 44))
+                    .font(.custom("Sora-SemiBold", size: 36))
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                 
             }
+            .foregroundColor(Color.white)
             .padding(.top, 50)
             
             //Alterar para componente do botão criado
-            Button{
-            } label: {
-                Text("CONTINUAR")
-            }
-            .frame(width: 343, height: 91)
-            .background(Color("orange"))
+            NavigationLink(destination: ChatView(), label: {
+                mainButton(text: "Continuar")
+            })
         }
-        .foregroundColor(Color.white)
     }
 }
 
