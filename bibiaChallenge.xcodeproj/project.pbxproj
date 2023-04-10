@@ -23,12 +23,23 @@
 		BF47677629DE779900E9978E /* DialogueComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677329DE779900E9978E /* DialogueComponent.swift */; };
 		BF47677B29DE781700E9978E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677A29DE781700E9978E /* Colors.swift */; };
 		D48D702B29E4494100FD4E5A /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D702A29E4494100FD4E5A /* MoodView.swift */; };
-		D4AA48AE29E447B00053C55F /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AA48AD29E447B00053C55F /* homeBtn.swift */; };
+		D48D702E29E44B1400FD4E5A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D702D29E44B1400FD4E5A /* GameOverView.swift */; };
+		D48D703129E44DC900FD4E5A /* HomeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703029E44DC900FD4E5A /* HomeScreenButton.swift */; };
+		D48D703329E455FE00FD4E5A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703229E455FE00FD4E5A /* CartView.swift */; };
+		D48D703729E4601200FD4E5A /* ItensArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703629E4601200FD4E5A /* ItensArray.swift */; };
+		D48D703929E4602400FD4E5A /* Itens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703829E4602400FD4E5A /* Itens.swift */; };
+		D48D703B29E4619100FD4E5A /* ItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703A29E4619100FD4E5A /* ItemCardView.swift */; };
+		D48D703E29E46FDF00FD4E5A /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703D29E46FDF00FD4E5A /* CartManager.swift */; };
+		D48D704029E490E000FD4E5A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703F29E490E000FD4E5A /* SettingsView.swift */; };
+		D48D704229E493BB00FD4E5A /* DialogueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D704129E493BB00FD4E5A /* DialogueArray.swift */; };
+		D48D704629E4A71900FD4E5A /* VCR OSD Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D48D704529E4A71900FD4E5A /* VCR OSD Mono.ttf */; };
+		D48D704829E4AA5D00FD4E5A /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D704729E4AA5D00FD4E5A /* MessageView.swift */; };
+		D4AA48AE29E447B00053C55F /* ReturnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AA48AD29E447B00053C55F /* ReturnButton.swift */; };
 		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
 		D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */; };
-		D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */; };
+		D4B47A4C29DDFA63008E6330 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4B29DDFA63008E6330 /* HomeView.swift */; };
 		D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5029DDFF73008E6330 /* ScoreManager.swift */; };
 		D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5229DE08D2008E6330 /* ActivityManager.swift */; };
 		D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A5529DE0EB4008E6330 /* InitialView.swift */; };
@@ -55,12 +66,23 @@
 		BF47677329DE779900E9978E /* DialogueComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueComponent.swift; sourceTree = "<group>"; };
 		BF47677A29DE781700E9978E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		D48D702A29E4494100FD4E5A /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
-		D4AA48AD29E447B00053C55F /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
+		D48D702D29E44B1400FD4E5A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		D48D703029E44DC900FD4E5A /* HomeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenButton.swift; sourceTree = "<group>"; };
+		D48D703229E455FE00FD4E5A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		D48D703629E4601200FD4E5A /* ItensArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItensArray.swift; sourceTree = "<group>"; };
+		D48D703829E4602400FD4E5A /* Itens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itens.swift; sourceTree = "<group>"; };
+		D48D703A29E4619100FD4E5A /* ItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardView.swift; sourceTree = "<group>"; };
+		D48D703D29E46FDF00FD4E5A /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		D48D703F29E490E000FD4E5A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D48D704129E493BB00FD4E5A /* DialogueArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueArray.swift; sourceTree = "<group>"; };
+		D48D704529E4A71900FD4E5A /* VCR OSD Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VCR OSD Mono.ttf"; sourceTree = "<group>"; };
+		D48D704729E4AA5D00FD4E5A /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		D4AA48AD29E447B00053C55F /* ReturnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnButton.swift; sourceTree = "<group>"; };
 		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
 		D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActionButton.swift; sourceTree = "<group>"; };
-		D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomeView.swift; sourceTree = "<group>"; };
+		D4B47A4B29DDFA63008E6330 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D4B47A5029DDFF73008E6330 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
 		D4B47A5229DE08D2008E6330 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
 		D4B47A5529DE0EB4008E6330 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
@@ -124,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				17E4EB0F29DDB212006579D7 /* Daydream.ttf */,
+				D48D704529E4A71900FD4E5A /* VCR OSD Mono.ttf */,
 				17E4EB1429DDB86A006579D7 /* Pixellari.ttf */,
 				0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */,
 			);
@@ -133,27 +156,16 @@
 		17E4EB1729DDCAF0006579D7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
-				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
-				BF47677029DE777900E9978E /* DeliveryView */,
 				D48D702C29E4496300FD4E5A /* PetView */,
-				D4AA48AD29E447B00053C55F /* homeBtn.swift */,
-				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
-				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
+				D48D702F29E44B4600FD4E5A /* CutsceneViews */,
+				D48D703429E4560800FD4E5A /* CartView */,
+				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A5929DE416E008E6330 /* ChatView.swift */,
-				D4B47A4D29DDFA66008E6330 /* Modais */,
+				D48D704729E4AA5D00FD4E5A /* MessageView.swift */,
+				D4B47A4B29DDFA63008E6330 /* HomeView.swift */,
+				BF47677229DE779900E9978E /* DeliveryView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		BF47677029DE777900E9978E /* DeliveryView */ = {
-			isa = PBXGroup;
-			children = (
-				BF47677129DE779900E9978E /* ButtonsComponent.swift */,
-				BF47677229DE779900E9978E /* DeliveryView.swift */,
-				BF47677329DE779900E9978E /* DialogueComponent.swift */,
-			);
-			path = DeliveryView;
 			sourceTree = "<group>";
 		};
 		BF47677729DE77FE00E9978E /* Extensions */ = {
@@ -173,13 +185,47 @@
 			path = PetView;
 			sourceTree = "<group>";
 		};
+		D48D702F29E44B4600FD4E5A /* CutsceneViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
+				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
+				D48D702D29E44B1400FD4E5A /* GameOverView.swift */,
+			);
+			path = CutsceneViews;
+			sourceTree = "<group>";
+		};
+		D48D703429E4560800FD4E5A /* CartView */ = {
+			isa = PBXGroup;
+			children = (
+				D48D703229E455FE00FD4E5A /* CartView.swift */,
+				D48D703A29E4619100FD4E5A /* ItemCardView.swift */,
+			);
+			path = CartView;
+			sourceTree = "<group>";
+		};
+		D48D703C29E4633300FD4E5A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BF47677129DE779900E9978E /* ButtonsComponent.swift */,
+				D4B47A5729DE11B9008E6330 /* MainButton.swift */,
+				D48D703029E44DC900FD4E5A /* HomeScreenButton.swift */,
+				D4AA48AD29E447B00053C55F /* ReturnButton.swift */,
+				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		D4B47A4229DDEDD3008E6330 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
+				D48D703C29E4633300FD4E5A /* Buttons */,
+				D4B47A4D29DDFA66008E6330 /* Modais */,
+				D48D703829E4602400FD4E5A /* Itens.swift */,
+				D48D703629E4601200FD4E5A /* ItensArray.swift */,
+				BF47677329DE779900E9978E /* DialogueComponent.swift */,
 				D4B47A4329DDEDF0008E6330 /* Message.swift */,
 				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
-				D4B47A5729DE11B9008E6330 /* MainButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -187,8 +233,10 @@
 		D4B47A4D29DDFA66008E6330 /* Modais */ = {
 			isa = PBXGroup;
 			children = (
+				D48D704129E493BB00FD4E5A /* DialogueArray.swift */,
 				17E4EB1229DDB512006579D7 /* DontBuyView.swift */,
 				17E4EB0B29DDAA8D006579D7 /* MinigameOverView.swift */,
+				D48D703F29E490E000FD4E5A /* SettingsView.swift */,
 			);
 			path = Modais;
 			sourceTree = "<group>";
@@ -197,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				D4B47A5229DE08D2008E6330 /* ActivityManager.swift */,
+				D48D703D29E46FDF00FD4E5A /* CartManager.swift */,
 				D4B47A5029DDFF73008E6330 /* ScoreManager.swift */,
 			);
 			path = Managers;
@@ -263,6 +312,7 @@
 				17E4EB0429DDA95C006579D7 /* Preview Assets.xcassets in Resources */,
 				17E4EB0129DDA95C006579D7 /* Assets.xcassets in Resources */,
 				17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */,
+				D48D704629E4A71900FD4E5A /* VCR OSD Mono.ttf in Resources */,
 				17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */,
 				0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */,
 			);
@@ -278,26 +328,36 @@
 				D4B47A5829DE11B9008E6330 /* MainButton.swift in Sources */,
 				D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */,
 				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
+				D48D704229E493BB00FD4E5A /* DialogueArray.swift in Sources */,
+				D48D703B29E4619100FD4E5A /* ItemCardView.swift in Sources */,
 				17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */,
 				17E4EAFF29DDA95B006579D7 /* ContentView.swift in Sources */,
 				BF47677B29DE781700E9978E /* Colors.swift in Sources */,
 				BF47677629DE779900E9978E /* DialogueComponent.swift in Sources */,
 				D4B47A4A29DDEFFA008E6330 /* PetActionButton.swift in Sources */,
 				D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */,
+				D48D703329E455FE00FD4E5A /* CartView.swift in Sources */,
 				D4B47A5A29DE416E008E6330 /* ChatView.swift in Sources */,
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
-				D4AA48AE29E447B00053C55F /* homeBtn.swift in Sources */,
+				D4AA48AE29E447B00053C55F /* ReturnButton.swift in Sources */,
+				D48D703129E44DC900FD4E5A /* HomeScreenButton.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* HomeView.swift in Sources */,
 				BF47677529DE779900E9978E /* DeliveryView.swift in Sources */,
+				D48D703729E4601200FD4E5A /* ItensArray.swift in Sources */,
+				D48D703929E4602400FD4E5A /* Itens.swift in Sources */,
 				0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
+				D48D704829E4AA5D00FD4E5A /* MessageView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* HomeView.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* HomeView.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
 				D48D702B29E4494100FD4E5A /* MoodView.swift in Sources */,
+				D48D704029E490E000FD4E5A /* SettingsView.swift in Sources */,
+				D48D702E29E44B1400FD4E5A /* GameOverView.swift in Sources */,
 				0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				BF47677429DE779900E9978E /* ButtonsComponent.swift in Sources */,
+				D48D703E29E46FDF00FD4E5A /* CartManager.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

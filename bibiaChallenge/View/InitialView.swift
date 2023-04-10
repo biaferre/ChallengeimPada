@@ -10,7 +10,7 @@ import SwiftUI
 
 struct InitialView: View {
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
-    @EnvironmentObject var gameSettings: GameSettings
+    @EnvironmentObject var gameSettings: ActivityManager
     
     var body: some View {
                 NavigationStack {
@@ -21,7 +21,7 @@ struct InitialView: View {
                         VStack (spacing: 78) {
                             Image("header")
                             NavigationLink {
-                                TestHomeView()
+                                HomeView()
                             } label: {
                                 mainButton(text: "Novo jogo")
                             }

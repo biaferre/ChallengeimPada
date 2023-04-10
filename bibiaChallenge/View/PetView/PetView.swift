@@ -14,7 +14,7 @@ struct PetView: View {
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
 
 
-    @EnvironmentObject var gameSettings: GameSettings
+    @EnvironmentObject var gameSettings: ActivityManager
     var meloMood: MoodView // dps vai ser binding
     
     var body: some View {
@@ -27,7 +27,7 @@ struct PetView: View {
          return ZStack {
             VStack {
                 HStack(spacing: 90) {
-                    homeBtn(dismiss: dismiss, imageName: "backhome icon")
+                    ReturnButton(dismiss: dismiss, imageName: "backhome icon")
                     Image("Pet header")
                     Spacer()
                 }

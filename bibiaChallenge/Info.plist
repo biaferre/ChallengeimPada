@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>VCR OSD Mono.ttf</string>
 		<string>Daydream.ttf</string>
 		<string>Pixellari.ttf</string>
 		<string>Sora-SemiBold.ttf</string>

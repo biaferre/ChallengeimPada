@@ -10,14 +10,15 @@ import SwiftUI
 @main
 struct bibiaChallengeApp: App {
     let scoreManager = ScoreManager()
-    let gameSettings = GameSettings()
+    let gameSettings = ActivityManager()
+    let cartManager = CartManager()
     
     var body: some Scene {
         WindowGroup {
             InitialView()
                 .environmentObject(scoreManager)
                 .environmentObject(gameSettings)
-
+                .environmentObject(cartManager)
         }
     }
 }

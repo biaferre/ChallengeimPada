@@ -14,16 +14,14 @@ struct ChatView: View {
     var body: some View {
         ZStack(alignment: .centerFirstTextBaseline) {
             ScrollView {
-                Text("mensagem a")
-                    .font(.custom("Pixellari", size: 32))
-                    .multilineTextAlignment(.leading)
-                Text("mensagem b")
-                    .font(.custom("Pixellari", size: 32))
-                    .multilineTextAlignment(.leading)
+                VStack {
+                    MessageView(message: Message(text: "oii"), isUser: false)
+                    MessageView(message: Message(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "), isUser: true)
+                }
             }
             VStack {
                 HStack {
-                    homeBtn(dismiss: dismiss, imageName: "arrow-icon")
+                    ReturnButton(dismiss: dismiss, imageName: "arrow-icon")
                     Image("chat-header")
                 }.padding(.trailing, 200)
                 Spacer()
@@ -36,11 +34,13 @@ struct ChatView: View {
                             .foregroundColor(.white)
                             .cornerRadius(88)
                         Text("O QUE VOCÊ TEM A DIZER?")
-                            .font(.custom("Pixellari", size: 32))
+                            .font(.custom("VCR OSD Mono", size: 32))
                             .multilineTextAlignment(.leading)
                     }
                 }).ignoresSafeArea()
+                    .offset(y: 24)
             }
+            
         }.background(Image("Chat wallpaper"))
             .navigationBarBackButtonHidden(true)
     }
