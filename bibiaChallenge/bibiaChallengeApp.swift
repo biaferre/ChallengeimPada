@@ -12,6 +12,7 @@ struct bibiaChallengeApp: App {
     let scoreManager = ScoreManager()
     let gameSettings = ActivityManager()
     let cartManager = CartManager()
+    let chatManager = ChatManager()
     
     var body: some Scene {
         WindowGroup {
@@ -19,6 +20,7 @@ struct bibiaChallengeApp: App {
                 .environmentObject(scoreManager)
                 .environmentObject(gameSettings)
                 .environmentObject(cartManager)
+                .environmentObject(chatManager)
         }
     }
 }

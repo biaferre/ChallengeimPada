@@ -10,25 +10,23 @@ import SwiftUI
 
 struct MessageView: View {
     var message: Message
-    var isUser: Bool
-    
     var body: some View {
         HStack(alignment: .top) {
-            if isUser {
+            if message.isUser {
                 Spacer()
             }
             
-            VStack(alignment: isUser ? .trailing : .leading, spacing: 4) {
+            VStack(alignment: message.isUser ? .trailing : .leading, spacing: 4) {
                 Text(message.text)
-                    .frame(minWidth: 0, maxWidth: 586)
+                    .frame(minWidth: 0, maxWidth: 400)
                     .padding(20)
-                    .foregroundColor(isUser ? .white : .black)
-                    .background(isUser ? .black : Color("yellow"))
+                    .foregroundColor(message.isUser ? .white : .black)
+                    .background(message.isUser ? .black : Color("yellow"))
                     .cornerRadius(12)
                     .font(
                         .custom("VCR OSD Mono", size: 28))
             }
-            if !isUser {
+            if !message.isUser {
                 Spacer()
             }
         }
@@ -38,6 +36,6 @@ struct MessageView: View {
 
 struct MessageView_Previews: PreviewProvider {
     static var previews: some View {
-        MessageView(message: Message(text: "oii"), isUser: true)
+        MessageView(message: Message(text: "oii", isUser: true))
     }
 }

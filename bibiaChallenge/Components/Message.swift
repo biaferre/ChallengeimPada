@@ -11,4 +11,5 @@ import SwiftUI
 struct Message: Identifiable {
         var id = UUID()
         let text: String
+        var isUser: Bool
 }

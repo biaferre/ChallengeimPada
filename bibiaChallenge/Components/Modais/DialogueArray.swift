@@ -46,8 +46,8 @@ var DialogueArray: [DialogueInformation] = [
     DialogueInformation(speaker: "ENTREGADOR", text: "Achei que você fosse grande o suficiente pra saber..."),
     DialogueInformation(speaker: "ENTREGADOR", text: "... nada é de graça."),
     DialogueInformation(speaker: "ENTREGADOR", text: "Você sente medo e tenta me botar pra fora, como se tivesse algum controle sobre alguma coisa."),
-    DialogueInformation(speaker: "ENTREGADOR", text: "O seu dia estava planejado desde o começo, criatura imbecil."),
-    DialogueInformation(speaker: "VOCÊ", text: "AGORA, DEU!!"),
+    DialogueInformation(speaker: "ENTREGADOR", text: "O seu dia estava planejado desde o começo, cobaiazinh."),
+    DialogueInformation(speaker: "VOCÊ", text: "!!"),
     DialogueInformation(speaker: "ENTREGADOR", text: "Não precisa me deixar entrar."),
     DialogueInformation(speaker: "ENTREGADOR", text: "E u  j á  e n t r e i.")
 

@@ -12,6 +12,7 @@ struct HomeView: View {
     @EnvironmentObject var scoreManager: ScoreManager // guarda score de comidas
     @EnvironmentObject var gameSettings: ActivityManager
     @EnvironmentObject var cartManager: CartManager
+
     
     @State var showDontBuySheet = false
 //    @State var showSettings = false

@@ -11,4 +11,5 @@ class ActivityManager: ObservableObject {
     @Published var isTalkEnabled = true
     @Published var isPlayEnabled = false
     @Published var isBuyingEnabled = true
+    
 }

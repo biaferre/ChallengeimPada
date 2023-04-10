@@ -10,22 +10,29 @@ import SwiftUI
 
 struct ChatView: View {
     @Environment(\.dismiss) private var dismiss
+    @EnvironmentObject var chatManager: ChatManager
+    
+    @State var isUser: Bool = false
 
     var body: some View {
         ZStack(alignment: .centerFirstTextBaseline) {
             ScrollView {
                 VStack {
-                    MessageView(message: Message(text: "oii"), isUser: false)
-                    MessageView(message: Message(text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation "), isUser: true)
+                    ForEach(chatManager.messageHistory) { message in
+                        MessageView(message: message)
+                    }
                 }
-            }
+            }.offset(y: 120)
             VStack {
                 HStack {
                     ReturnButton(dismiss: dismiss, imageName: "arrow-icon")
                     Image("chat-header")
                 }.padding(.trailing, 200)
                 Spacer()
-                Button(action: {}, label: {
+                Button(action: {
+                    chatManager.updateManager()
+                    chatManager.dialoguePhase += 1
+                }, label: {
                     ZStack {
                         Rectangle()
                             .frame(height: 252)
@@ -46,8 +53,8 @@ struct ChatView: View {
     }
 }
 
-struct ChatView_Previews: PreviewProvider {
-    static var previews: some View {
-        ChatView()
-    }
-}
+//struct ChatView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ChatView()
+//    }
+//}
