@@ -18,11 +18,12 @@
 		17E4EB1029DDB212006579D7 /* Daydream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB0F29DDB212006579D7 /* Daydream.ttf */; };
 		17E4EB1329DDB512006579D7 /* DontBuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E4EB1229DDB512006579D7 /* DontBuyView.swift */; };
 		17E4EB1529DDB86B006579D7 /* Pixellari.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17E4EB1429DDB86A006579D7 /* Pixellari.ttf */; };
-		D4AA48AE29E447B00053C55F /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AA48AD29E447B00053C55F /* homeBtn.swift */; };
 		BF47677429DE779900E9978E /* ButtonsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677129DE779900E9978E /* ButtonsComponent.swift */; };
 		BF47677529DE779900E9978E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677229DE779900E9978E /* DeliveryView.swift */; };
 		BF47677629DE779900E9978E /* DialogueComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677329DE779900E9978E /* DialogueComponent.swift */; };
 		BF47677B29DE781700E9978E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677A29DE781700E9978E /* Colors.swift */; };
+		D48D702B29E4494100FD4E5A /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D702A29E4494100FD4E5A /* MoodView.swift */; };
+		D4AA48AE29E447B00053C55F /* homeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AA48AD29E447B00053C55F /* homeBtn.swift */; };
 		D4B47A4429DDEDF0008E6330 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4329DDEDF0008E6330 /* Message.swift */; };
 		D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4529DDEE01008E6330 /* ChatOption.swift */; };
 		D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B47A4729DDEE60008E6330 /* PetView.swift */; };
@@ -49,12 +50,12 @@
 		17E4EB0F29DDB212006579D7 /* Daydream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Daydream.ttf; sourceTree = "<group>"; };
 		17E4EB1229DDB512006579D7 /* DontBuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontBuyView.swift; sourceTree = "<group>"; };
 		17E4EB1429DDB86A006579D7 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
-		D4AA48AD29E447B00053C55F /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
-
-    BF47677129DE779900E9978E /* ButtonsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsComponent.swift; sourceTree = "<group>"; };
+		BF47677129DE779900E9978E /* ButtonsComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsComponent.swift; sourceTree = "<group>"; };
 		BF47677229DE779900E9978E /* DeliveryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
 		BF47677329DE779900E9978E /* DialogueComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueComponent.swift; sourceTree = "<group>"; };
 		BF47677A29DE781700E9978E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D48D702A29E4494100FD4E5A /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		D4AA48AD29E447B00053C55F /* homeBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeBtn.swift; sourceTree = "<group>"; };
 		D4B47A4329DDEDF0008E6330 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		D4B47A4529DDEE01008E6330 /* ChatOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOption.swift; sourceTree = "<group>"; };
 		D4B47A4729DDEE60008E6330 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
@@ -135,8 +136,7 @@
 				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A4B29DDFA63008E6330 /* TestHomeView.swift */,
 				BF47677029DE777900E9978E /* DeliveryView */,
-				D4B47A4B29DDFA63008E6330 /* TestHome.swift */,
-				D4B47A4729DDEE60008E6330 /* PetView.swift */,
+				D48D702C29E4496300FD4E5A /* PetView */,
 				D4AA48AD29E447B00053C55F /* homeBtn.swift */,
 				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
 				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
@@ -164,12 +164,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D48D702C29E4496300FD4E5A /* PetView */ = {
+			isa = PBXGroup;
+			children = (
+				D4B47A4729DDEE60008E6330 /* PetView.swift */,
+				D48D702A29E4494100FD4E5A /* MoodView.swift */,
+			);
+			path = PetView;
+			sourceTree = "<group>";
+		};
 		D4B47A4229DDEDD3008E6330 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
 				D4B47A4329DDEDF0008E6330 /* Message.swift */,
 				D4B47A4529DDEE01008E6330 /* ChatOption.swift */,
-				D4B47A4929DDEFFA008E6330 /* PetActionButton.swift */,
 				D4B47A5729DE11B9008E6330 /* MainButton.swift */,
 			);
 			path = Components;
@@ -279,12 +288,13 @@
 				17E4EAFD29DDA95B006579D7 /* bibiaChallengeApp.swift in Sources */,
 				D4AA48AE29E447B00053C55F /* homeBtn.swift in Sources */,
 				17E4EB0C29DDAA8D006579D7 /* MinigameOverView.swift in Sources */,
-				D4B47A4C29DDFA63008E6330 /* TestHome.swift in Sources */,
+				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				BF47677529DE779900E9978E /* DeliveryView.swift in Sources */,
 				0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */,
 				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				D4B47A4C29DDFA63008E6330 /* TestHomeView.swift in Sources */,
 				D4B47A5329DE08D2008E6330 /* ActivityManager.swift in Sources */,
+				D48D702B29E4494100FD4E5A /* MoodView.swift in Sources */,
 				0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */,
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				BF47677429DE779900E9978E /* ButtonsComponent.swift in Sources */,

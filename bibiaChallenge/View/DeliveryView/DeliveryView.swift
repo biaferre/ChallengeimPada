@@ -29,6 +29,12 @@ struct DeliveryView: View {
 
 }
 
+struct DeliveryView_Previews: PreviewProvider {
+
+    static var previews: some View {
+        DeliveryView()
+    }
+}
 
 
 
