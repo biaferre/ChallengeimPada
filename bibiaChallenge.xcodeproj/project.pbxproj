@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4ADE7D29DF0E3100689BB9 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7C29DF0E3100689BB9 /* GameOverView.swift */; };
 		0D4ADE7729DE6A8C00689BB9 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */; };
 		0D4ADE7929DE6B9C00689BB9 /* DiaCumpridoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */; };
 		0D4ADE7B29DF099B00689BB9 /* TokTokTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4ADE7C29DF0E3100689BB9 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		0D4ADE7629DE6A8C00689BB9 /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sora-SemiBold.ttf"; sourceTree = "<group>"; };
 		0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaCumpridoView.swift; sourceTree = "<group>"; };
 		0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokTransitionView.swift; sourceTree = "<group>"; };
@@ -137,7 +139,8 @@
 				BF47677029DE777900E9978E /* DeliveryView */,
 				D4B47A4B29DDFA63008E6330 /* TestHome.swift */,
 				D4B47A4729DDEE60008E6330 /* PetView.swift */,
-				D4AA48AD29E447B00053C55F /* homeBtn.swift */,
+				0D4ADE7C29DF0E3100689BB9 /* GameOverView.swift */,
+				D4B47A4E29DDFE08008E6330 /* homeBtn.swift */,
 				0D4ADE7A29DF099B00689BB9 /* TokTokTransitionView.swift */,
 				0D4ADE7829DE6B9C00689BB9 /* DiaCumpridoView.swift */,
 				D4B47A5929DE416E008E6330 /* ChatView.swift */,
@@ -289,6 +292,8 @@
 				D4B47A4829DDEE60008E6330 /* PetView.swift in Sources */,
 				BF47677429DE779900E9978E /* ButtonsComponent.swift in Sources */,
 				D4B47A5129DDFF73008E6330 /* ScoreManager.swift in Sources */,
+				0D4ADE7D29DF0E3100689BB9 /* GameOverView.swift in Sources */,
+				D4B47A4F29DDFE08008E6330 /* homeBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
