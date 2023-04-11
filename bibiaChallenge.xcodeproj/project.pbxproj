@@ -22,6 +22,7 @@
 		BF47677529DE779900E9978E /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677229DE779900E9978E /* DeliveryView.swift */; };
 		BF47677629DE779900E9978E /* DialogueComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677329DE779900E9978E /* DialogueComponent.swift */; };
 		BF47677B29DE781700E9978E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF47677A29DE781700E9978E /* Colors.swift */; };
+		D4209A5529E5E29600D2834C /* DecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4209A5429E5E29600D2834C /* DecisionView.swift */; };
 		D48D702B29E4494100FD4E5A /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D702A29E4494100FD4E5A /* MoodView.swift */; };
 		D48D702E29E44B1400FD4E5A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D702D29E44B1400FD4E5A /* GameOverView.swift */; };
 		D48D703129E44DC900FD4E5A /* HomeScreenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48D703029E44DC900FD4E5A /* HomeScreenButton.swift */; };
@@ -66,6 +67,7 @@
 		BF47677229DE779900E9978E /* DeliveryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
 		BF47677329DE779900E9978E /* DialogueComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueComponent.swift; sourceTree = "<group>"; };
 		BF47677A29DE781700E9978E /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D4209A5429E5E29600D2834C /* DecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionView.swift; sourceTree = "<group>"; };
 		D48D702A29E4494100FD4E5A /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
 		D48D702D29E44B1400FD4E5A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		D48D703029E44DC900FD4E5A /* HomeScreenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenButton.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				D48D703429E4560800FD4E5A /* CartView */,
 				D4B47A5529DE0EB4008E6330 /* InitialView.swift */,
 				D4B47A5929DE416E008E6330 /* ChatView.swift */,
+				D4209A5429E5E29600D2834C /* DecisionView.swift */,
 				D48D704729E4AA5D00FD4E5A /* MessageView.swift */,
 				D4B47A4B29DDFA63008E6330 /* HomeView.swift */,
 				BF47677229DE779900E9978E /* DeliveryView.swift */,
@@ -338,6 +341,7 @@
 			files = (
 				D4B47A5829DE11B9008E6330 /* MainButton.swift in Sources */,
 				D4B47A5629DE0EB4008E6330 /* InitialView.swift in Sources */,
+				D4209A5529E5E29600D2834C /* DecisionView.swift in Sources */,
 				D4B47A4629DDEE01008E6330 /* ChatOption.swift in Sources */,
 				D48D704229E493BB00FD4E5A /* DialogueArray.swift in Sources */,
 				D48D703B29E4619100FD4E5A /* ItemCardView.swift in Sources */,
